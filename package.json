@@ -1,0 +1,16 @@
+{
+  "name": "excel2mysql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+  },
+  "author": "kazaff",
+  "license": "MIT",
+  "devDependencies": {
+
+  },
+  "dependencies": {
+
+  }
+}
