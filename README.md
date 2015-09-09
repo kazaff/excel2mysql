@@ -7,6 +7,21 @@
 > npm install
 
 
+##配置
+
+用编辑器打开`app.js`文件，修改其中如下代码片段：
+
+```javascript
+var connection = mysql.createConnection({
+  host     : 'localhost',
+  user     : 'root',
+  password : '',
+  database : 'laocao'
+});
+```
+根据你实际的数据库配置信息进行修改。
+
+
 ##使用
 为了方便使用，可以在终端切换root权限后，执行：
 
