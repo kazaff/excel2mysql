@@ -3,14 +3,20 @@
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
-  "scripts": {
+  "scripts": {},
+  "bin": {
+    "excel2mysql": "app.js"
   },
-  "author": "kazaff",
+  "author": {
+    "name": "kazaff",
+    "email": "edisondik@163.com",
+    "url": "http://blog.kazaff.me"
+  },
   "license": "MIT",
-  "devDependencies": {
-
-  },
+  "devDependencies": {},
   "dependencies": {
-
+    "async": "^1.4.2",
+    "excel-stream": "^1.1.1",
+    "mysql": "^2.9.0"
   }
 }
